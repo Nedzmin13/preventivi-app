@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        <EditText
+                android:id="@+id/etDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Data (GG/MM/YYYY)" />
+
+        <EditText
+                android:id="@+id/etPreventivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="N° Preventivo" />
+
+        <EditText
+                android:id="@+id/etClienteNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome Cliente" />
+
+        <EditText
+                android:id="@+id/etIndirizzo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Indirizzo" />
+
+        <EditText
+                android:id="@+id/etCitta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Città" />
+
+        <EditText
+                android:id="@+id/etPiva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="P. IVA" />
+
+        <EditText
+                android:id="@+id/etTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefono" />
+
+        <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email" />
+
+        <EditText
+                android:id="@+id/etDescrizione"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:hint="Descrizione dei lavori"/>
+
+        <EditText
+                android:id="@+id/etTotale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Totale" />
+
+        <Button
+                android:id="@+id/btnGeneratePDF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genera PDF" />
+
+    </LinearLayout>
+</ScrollView>
